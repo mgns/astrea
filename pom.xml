@@ -5,31 +5,34 @@
   <version>1.2.1</version>
     <name>Astrea</name>
   <description>Astrea: SHACL shapes generation from ontologies</description>
-  
-    
-   <properties>
-	    <maven.compiler.target>1.8</maven.compiler.target>
-	    	<maven.compiler.source>1.8</maven.compiler.source>    
-	  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-   		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>   
-  </properties>
-  
-  
+
+  <properties>
+		<maven.compiler.target>1.8</maven.compiler.target>
+			<maven.compiler.source>1.8</maven.compiler.source>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
   <dependencies>
   	<!-- https://mvnrepository.com/artifact/org.apache.jena/apache-jena-libs -->
-	<dependency>
-	    <groupId>org.apache.jena</groupId>
-	    <artifactId>apache-jena-libs</artifactId>
-	    <version>3.13.0</version>
-	    <type>pom</type>
-	</dependency>
-	<!-- https://mvnrepository.com/artifact/junit/junit -->
-	<dependency>
-		<groupId>junit</groupId>
-		<artifactId>junit</artifactId>
-		<version>4.12</version>
-		<scope>test</scope>
-	</dependency>
-	
-  </dependencies>
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>apache-jena-libs</artifactId>
+			<version>3.13.0</version>
+			<type>pom</type>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>info.picocli</groupId>
+			<artifactId>picocli</artifactId>
+			<version>4.5.1</version>
+		</dependency>
+	</dependencies>
 </project>
